@@ -1,2 +1,3 @@
-# bash-install-scripts
-Centralized repo for my bash install scripts
+# Install Scripts
+
+**Centralized repo for my repo installation scripts.**
