@@ -16,7 +16,7 @@ function install() {
 	INSTALL_DIR="/Applications/$1/Cool Extras.localized/en_US/Templates/"
 	
 	# Navigate to the installation directory:
-	cd "$INSTALL_DIR"
+	cd "$INSTALL_DIR" || exit
 	
 	# Clean previous installs:
 	rm -rf "./$target"
@@ -89,7 +89,7 @@ function choose() {
 clear
 
 # Switch to glob folder location:
-cd "/Applications"
+cd "/Applications" || exit
 
 if check "Adobe Illustrator"*; then
 	
@@ -110,4 +110,4 @@ exit 0
 
 # Done!
 # For more information about this script, see:
-# https://github.com/mhulse/illy-templates
+# https://github.com/mhulse/install-scripts

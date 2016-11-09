@@ -105,4 +105,4 @@ cd - > /dev/null || exit
 
 # Done!
 # For more information about this script, see:
-# https://github.com/mhulse/illy-nudge
+# https://github.com/mhulse/install-scripts

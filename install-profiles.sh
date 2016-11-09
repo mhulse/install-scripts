@@ -13,7 +13,7 @@ function install() {
 	INSTALL_DIR=~/Library/Application\ Support/Adobe/$1/en_US/New\ Document\ Profiles/
 	
 	# Navigate to the installation directory:
-	cd "$INSTALL_DIR"
+	cd "$INSTALL_DIR" || exit
 	
 	# Remote repo zip file:
 	SOURCE_ZIP="https://github.com/mhulse/illy-profiles/tarball/master"
@@ -80,7 +80,7 @@ function choose() {
 clear
 
 # Switch to glob folder location:
-cd ~/Library/Application\ Support/Adobe
+cd ~/Library/Application\ Support/Adobe || exit
 
 if check "Adobe Illustrator"*; then
 	
@@ -101,4 +101,4 @@ exit 0
 
 # Done!
 # For more information about this script, see:
-# https://github.com/mhulse/illy-profiles
+# https://github.com/mhulse/install-scripts

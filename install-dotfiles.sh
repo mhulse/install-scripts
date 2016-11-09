@@ -77,4 +77,4 @@ choose
 
 # Done!
 # For more information about this script, see:
-# https://github.com/mhulse/dotfizzles
+# https://github.com/mhulse/install-scripts
