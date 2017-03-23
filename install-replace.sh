@@ -32,3 +32,11 @@ echo $'\n'"Latest version (${VERSION}) installed and paths updated to point at s
 #
 # Or, run this file from GitHub:
 # bash <(curl -sL https://git.io/vSJlW)
+#
+# Finally, copy `demo/starter.html` into the parent directory
+# and update it‘s asset links (css/js) to point to the `demo/` folder.
+# Modify the `starter.html` template to suit your needs.
+# Use the files in `demo/` as a way to preview all features of AdminLTE.
+# If you want to update AdminLTE to the latest version, run this script again.
+# Note: This script does not update `starter.html` for you … if you update
+# AdminLTE to a new release, then you will have to manually update `starter.html`.
