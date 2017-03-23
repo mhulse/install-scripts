@@ -24,3 +24,11 @@ curl -sS -#L "$SOURCE_ZIP" | tar -xzv --strip-components 1 -C "$INSTALL_DIR"
 find ${INSTALL_DIR} -type f -name '*.html' -exec sed -i '' "s,dist/css/skins/skin-blue.min.css,../${SKIN},g; s,dist/css/skins/_all-skins.min.css,../${SKIN},g" {} +
 
 echo $'\n'"Latest version (${VERSION}) installed and paths updated to point at skin override (${SKIN})."$'\n'
+
+# Usage:
+# Download this file into directory where you want AdminLTE.
+# Make executable: `$ chmod u+x install-replace.sh`
+# Run it: `$ ./install-replace.sh`
+#
+# Or, run this file from GitHub:
+# bash <(curl -sL https://git.io/vSJlW)
