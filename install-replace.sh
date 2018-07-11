@@ -3,7 +3,7 @@
 SKIN="skin.css"
 
 # https://github.com/almasaeed2010/AdminLTE/releases
-VERSION="2.3.11"
+VERSION="2.4.3"
 
 # Demo folder location:
 INSTALL_DIR="demo"
